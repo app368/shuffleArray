@@ -1,0 +1,10 @@
+var array1: [String] = ["Jack", "John", "Robin", "Ann", "ALex", "Emma", "Daniel", "Liam"]
+
+var array2: [String] = []
+
+for var i in 0..<array1.count {    
+    i = Int(arc4random_uniform(UInt32(array1.count)))    
+    array2.append(array1.remove(at: i))           
+   }
+
+print(array2)
